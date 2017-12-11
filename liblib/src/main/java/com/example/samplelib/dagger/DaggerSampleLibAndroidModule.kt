@@ -9,5 +9,5 @@ import dagger.android.ContributesAndroidInjector
 abstract class DaggerSampleLibAndroidModule {
 
     @ContributesAndroidInjector()
-    abstract fun analyticsActivity(): EmptyActivity
+    abstract fun emptyActivity(): EmptyActivity
 }
